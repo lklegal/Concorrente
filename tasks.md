@@ -14,6 +14,7 @@
 ## Exemplos de utilização
 - Um exemplo simples de utilização de OpenMP tasks é o seguinte:
 
+```
 int main() {
   #pragma omp parallel
   {
@@ -24,6 +25,7 @@ int main() {
     return 0;
   }
 }
+```
 
 ## Qual a diferença para as OpenMP Sections
 - OpenMP Sections são blocos de código que podem ser executados em paralelo por diferentes threads.
